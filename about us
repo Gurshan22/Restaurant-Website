@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Bistro Elegance</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="reservations.html">Reservations</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    
+    <section class="page-header">
+        <h1>Our Story</h1>
+        <p>The journey of Bistro Elegance from vision to reality</p>
+    </section>
+    
+    <section class="about">
+        <div class="about-content">
+            <h2>Our Philosophy</h2>
+            <p>At Bistro Elegance, we believe that exceptional dining is an art form that engages all the senses. Our philosophy centers around three key principles: sourcing the finest seasonal ingredients, honoring culinary traditions while embracing innovation, and creating a warm, sophisticated atmosphere where memories are made.</p>
+            
+            <p>Each dish tells a story of its origins, from the local farmers who grow our produce to the artisanal producers who supply our cheeses and meats. We seek to create meaningful connections between our guests and the food they enjoy, celebrating the rich tapestry of flavors that define our region's culinary landscape.</p>
+            
+            <img src="/api/placeholder/800/400" alt="Restaurant Interior" style="width: 100%; margin: 30px 0; border-radius: 5px;">
+            
+            <h2>From Farm to Table</h2>
+            <p>Our commitment to sustainability drives everything we do. We work directly with local farmers who practice sustainable agriculture, ensuring that our ingredients are not only delicious but also responsibly sourced. Our menu changes with the seasons, showcasing the best that each harvest has to offer.</p>
+            
+            <p>By minimizing our carbon footprint and reducing food waste, we strive to be stewards of the environment while delivering an exceptional dining experience. Our kitchen team regularly visits our partner farms to strengthen these relationships and gain inspiration for new dishes.</p>
+        </div>
+    </section>
+    
+    <section class="about">
+        <div class="about-content">
+            <h2>Meet Our Team</h2>
+            <div class="team-members">
+                <div class="team-member">
+                    <img src="/api/placeholder/300/300" alt="Chef Maria Rodriguez">
+                    <h3>Maria Rodriguez</h3>
+                    <p>Executive Chef & Founder</p>
+                    <p>With over 15 years of culinary experience in Michelin-starred restaurants across Europe, Chef Maria brings her passion for innovative cooking to every dish.</p>
+                </div>
+                
+                <div class="team-member">
+                    <img src="/api/placeholder/300/300" alt="Chef James Chen">
+                    <h3>James Chen</h3>
+                    <p>Head Chef</p>
+                    <p>A specialist in fusion cuisine, Chef James combines classical techniques with bold Asian flavors to create unique culinary experiences.</p>
+                </div>
+                
+                <div class="team-member">
+                    <img src="/api/placeholder/300/300" alt="Sophia Laurent">
+                    <h3>Sophia Laurent</h3>
+                    <p>Pastry Chef</p>
+                    <p>Trained in Paris, Sophia crafts exquisite desserts that balance tradition and innovation with artistic presentation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="about">
+        <div class="about-content">
+            <h2>Our Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">2015</div>
+                    <h3>The Beginning</h3>
+                    <p>Chef Maria Rodriguez opens Bistro Elegance with a vision to create a restaurant that celebrates local ingredients with international techniques.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-year">2017</div>
+                    <h3>First Recognition</h3>
+                    <p>Bistro Elegance receives its first major award, being named "Best New Restaurant" by City Culinary Guide.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-year">2019</div>
+                    <h3>Farm Partnerships</h3>
+                    <p>We establish exclusive partnerships with local sustainable farms to ensure the highest quality ingredients.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-year">2021</div>
+                    <h3>Expansion</h3>
+                    <p>Our dining room is renovated and expanded to include a chef's table experience and private dining room.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-year">2023</div>
+                    <h3>Culinary Excellence Award</h3>
+                    <p>Bistro Elegance receives the prestigious Regional Culinary Excellence Award for our commitment to sustainable dining.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-year">2025</div>
+                    <h3>Today</h3>
+                    <p>We continue to evolve while staying true to our original vision, introducing seasonal tasting menus and culinary workshops.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+        <div class="hours-location">
+            <p>&copy; 2025 Bistro Elegance. All rights reserved.</p>
+            <p>123 Gourmet Avenue, Culinary District</p>
+            <p>Open Tuesday - Sunday, 5pm - 11pm</p>
+        </div>
+    </footer>
+</body>
+</html>
