@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations - Bistro Elegance</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="reservations.html">Reservations</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    
+    <section class="page-header">
+        <h1>Make a Reservation</h1>
+        <p>Secure your table for an unforgettable dining experience</p>
+    </section>
+    
+    <section class="form-container">
+        <p>For parties of 8 or more, please call us directly at (555) 123-4567.</p>
+        <p>Reservations can be made up to 30 days in advance.</p>
+        
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="time">Time</label>
+                <select id="time" name="time" required>
+                    <option value="">Select a time</option>
+                    <option value="17:00">5:00 PM</option>
+                    <option value="17:30">5:30 PM</option>
+                    <option value="18:00">6:00 PM</option>
+                    <option value="18:30">6:30 PM</option>
+                    <option value="19:00">7:00 PM</option>
+                    <option value="19:30">7:30 PM</option>
+                    <option value="20:00">8:00 PM</option>
+                    <option value="20:30">8:30 PM</option>
+                    <option value="21:00">9:00 PM</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="guests">Number of Guests</label>
+                <select id="guests" name="guests" required>
+                    <option value="">Select number of guests</option>
+                    <option value="1">1 person</option>
+                    <option value="2">2 people</option>
+                    <option value="3">3 people</option>
+                    <option value="4">4 people</option>
+                    <option value="5">5 people</option>
+                    <option value="6">6 people</option>
+                    <option value="7">7 people</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="occasion">Special Occasion (optional)</label>
+                <select id="occasion" name="occasion">
+                    <option value="">Select an occasion</option>
+                    <option value="birthday">Birthday</option>
+                    <option value="anniversary">Anniversary</option>
+                    <option value="business">Business Dinner</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="requests">Special Requests (optional)</label>
+                <textarea id="requests" name="requests"></textarea>
+            </div>
+            
+            <div class="form-group">
+                <input type="submit" value="Reserve Table" class="form-submit">
+            </div>
+        </form>
+    </section>
+    
+    <section class="about">
+        <div class="about-content">
+            <h2>Reservation Policy</h2>
+            <p>We hold reservations for 15 minutes past the reserved time. If you're running late, please call us.</p>
+            <p>Cancellations must be made at least 24 hours in advance to avoid a $25 per person fee.</p>
+            <p>For private events and larger parties, please contact our events team at events@bistroelegance.com</p>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+        <div class="hours-location">
+            <p>&copy; 2025 Bistro Elegance. All rights reserved.</p>
+            <p>123 Gourmet Avenue, Culinary District</p>
+            <p>Open Tuesday - Sunday, 5pm - 11pm</p>
+        </div>
+    </footer>
+</body>
+</html>
